@@ -24,7 +24,17 @@
 &kp ESCAPE  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB     &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LCTRL
-                          &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+                          &kp LGUI  &mo 2  &kp SPACE    &kp RET  &mo 3  &kp RALT
+            >;
+        };
+
+        game {
+            label = "game";
+            bindings = <
+&kp T  &kp ESC    &kp Q  &kp W      &kp E  &kp R        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp G  &kp TAB    &kp A  &kp S      &kp D  &kp F        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp B  &kp LSHFT  &kp Z  &kp X      &kp C  &kp V        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LCTRL
+                         &kp LCTRL  &mo 2  &kp SPACE    &kp RET  &mo 3  &kp RALT
             >;
         };
 
@@ -56,17 +66,7 @@
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &kp A     &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &tog 3       &kp RET    &trans     &kp RALT
-            >;
-        };
-
-        game {
-            label = "game";
-            bindings = <
-&kp T  &kp ESC    &kp Q  &kp W      &kp E  &kp R        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp G  &kp TAB    &kp A  &kp S      &kp D  &kp F        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp B  &kp LSHFT  &kp Z  &kp X      &kp C  &kp V        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LCTRL
-                         &kp LCTRL  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+                             &kp LGUI  &trans    &tog 1       &kp RET    &trans     &kp RALT
             >;
         };
     };
